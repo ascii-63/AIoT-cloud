@@ -1,0 +1,38 @@
+{
+    "message_id": "0000-0001-0002-000000",
+    "timestamp": "2024-05-21T12:13:31.014Z",
+    "location": {
+        "id": "0000",
+        "lat": 21.005453,
+        "lon": 105.8451935,
+        "alt": 105.8451935
+    },
+    "model": {
+        "id": "0001",
+        "description": "Human_Detection_with_YOLOv5_24Jan11"
+    },
+    "camera": {
+        "id": "0002",
+        "type": "RGB",
+        "description": "Ahua_IP_Camera"
+    },
+    "number_of_objects": 1,
+    "object_list": [
+        {
+            "Human": {
+                "id": "00",
+                "gender": "Male",
+                "age": "20",
+                "bbox": {
+                    "topleftx": 656.562,
+                    "toplefty": 372.0,
+                    "bottomrightx": 814.438,
+                    "bottomrighty": 683.0
+                }
+            }
+        }
+    ],
+    "number_of_events": 0,
+    "event_list": [],
+    "image_URL": "https://ivsr-aiot.s3.ap-southeast-1.amazonaws.com/images/2024-05-21T19:13:31.014Z.jpg"
+}
